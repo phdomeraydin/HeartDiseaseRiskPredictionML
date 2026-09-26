@@ -1,0 +1,191 @@
+{
+  "Dataset_SHA256": "161dd09aeff2c4111bb1a143baa431aebbea1c72b691de740eba32a02690a7af",
+  "Seed": 42,
+  "Holdout_fraction": 0.4,
+  "Nested_outer_folds": 10,
+  "Nested_inner_folds": 5,
+  "Repeated_outer_folds": 5,
+  "Repeated_repeats": 3,
+  "Repeated_inner_folds": 3,
+  "Augmentation_ratio": 0.5,
+  "Nested_search_spaces": {
+    "Logistic Regression": {
+      "model__C": [
+        0.1,
+        1,
+        10
+      ]
+    },
+    "KNN": {
+      "model__n_neighbors": [
+        5,
+        9
+      ],
+      "model__weights": [
+        "uniform",
+        "distance"
+      ]
+    },
+    "SVM": {
+      "model__C": [
+        0.1,
+        1,
+        10
+      ],
+      "model__kernel": [
+        "linear",
+        "rbf"
+      ]
+    },
+    "Decision Tree": {
+      "model__max_depth": [
+        3,
+        5,
+        null
+      ],
+      "model__min_samples_leaf": [
+        1,
+        4
+      ]
+    },
+    "Random Forest": {
+      "model__n_estimators": [
+        150,
+        300
+      ],
+      "model__max_depth": [
+        5,
+        null
+      ],
+      "model__min_samples_leaf": [
+        1,
+        4
+      ]
+    },
+    "Ridge Classifier": {
+      "model__alpha": [
+        0.1,
+        1,
+        10
+      ]
+    },
+    "LightGBM": {
+      "model__n_estimators": [
+        100,
+        250
+      ],
+      "model__learning_rate": [
+        0.03,
+        0.1
+      ],
+      "model__num_leaves": [
+        15,
+        31
+      ]
+    },
+    "XGBoost": {
+      "model__n_estimators": [
+        100,
+        250
+      ],
+      "model__learning_rate": [
+        0.03,
+        0.1
+      ],
+      "model__max_depth": [
+        3,
+        5
+      ]
+    }
+  },
+  "Repeated_search_spaces": {
+    "Logistic Regression": {
+      "model__C": [
+        0.1,
+        1,
+        10
+      ]
+    },
+    "KNN": {
+      "model__n_neighbors": [
+        5,
+        9
+      ],
+      "model__weights": [
+        "uniform",
+        "distance"
+      ]
+    },
+    "SVM": {
+      "model__C": [
+        0.1,
+        1,
+        10
+      ],
+      "model__kernel": [
+        "linear",
+        "rbf"
+      ]
+    },
+    "Decision Tree": {
+      "model__max_depth": [
+        3,
+        5,
+        null
+      ],
+      "model__min_samples_leaf": [
+        1,
+        4
+      ]
+    },
+    "Random Forest": {
+      "model__n_estimators": [
+        150
+      ],
+      "model__max_depth": [
+        5,
+        null
+      ],
+      "model__min_samples_leaf": [
+        1,
+        4
+      ]
+    },
+    "Ridge Classifier": {
+      "model__alpha": [
+        0.1,
+        1,
+        10
+      ]
+    },
+    "LightGBM": {
+      "model__n_estimators": [
+        100
+      ],
+      "model__learning_rate": [
+        0.03,
+        0.1
+      ],
+      "model__num_leaves": [
+        15,
+        31
+      ]
+    },
+    "XGBoost": {
+      "model__n_estimators": [
+        100
+      ],
+      "model__learning_rate": [
+        0.03,
+        0.1
+      ],
+      "model__max_depth": [
+        3,
+        5
+      ]
+    }
+  },
+  "CIs": "fold-based intervals describe resampling variability; not independent patient-population confidence intervals",
+  "Pairwise_tests": "exploratory: outer-fold scores share training data",
+  "Run_ID": "e1436f8674227c16"
+}

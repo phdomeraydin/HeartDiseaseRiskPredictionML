@@ -1,0 +1,25 @@
+{
+  "data_sha256": "161dd09aeff2c4111bb1a143baa431aebbea1c72b691de740eba32a02690a7af",
+  "rows": 918,
+  "columns": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "target"
+  ],
+  "random_seed": 42,
+  "holdout_fraction": 0.4,
+  "development_n": 550,
+  "holdout_n": 368,
+  "holdout_kind": "internal",
+  "feature_slope_zero": "kept as separate source category",
+  "source_wise_validation": "not possible from one combined data source"
+}
