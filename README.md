@@ -315,7 +315,7 @@ If you use the code, audit procedure, or results, please cite the accompanying m
 
 ```bibtex
 @article{tutuk2026heart,
-  title  = {Heart Disease Classification with Source Overlap Auditing and Leakage-Controlled Validation},
+  title  = {Heart Disease Classification with Record Overlap Auditing and Data Leakage Control},
   author = {Tutuk, Mehmet Toygun and Aydin, Omer and Erenay, Fatih Safa and Selim, Aybeyan and Cali, Umit},
   year   = {2026},
   note   = {Manuscript submitted for publication}
