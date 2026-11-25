@@ -1,8 +1,8 @@
-# Heart Disease Classification with Source Overlap Auditing and Leakage-Controlled Validation
+# Heart Disease Classification with Record Overlap Auditing and Data Leakage Control
 
 This repository contains the Python code and analysis outputs accompanying the manuscript:
 
-> **Heart Disease Classification with Source Overlap Auditing and Leakage-Controlled Validation**
+> **Heart Disease Classification with Record Overlap Auditing and Data Leakage Control**
 
 The study examines how record overlap, inconsistent categorical codes, and conflicting outcome directions affect machine learning evaluation in publicly distributed heart disease data. Eight established classifiers are compared after a record-level source audit and leakage-controlled preprocessing. The study evaluates existing heart disease status. It does not estimate prospective heart attack or cardiovascular risk.
 
